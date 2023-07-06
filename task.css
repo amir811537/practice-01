@@ -1,65 +1,70 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.manu-containner {
+  background-color: rgb(32, 32, 32);
+  padding: 10px;
+  color: wheat;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 8vw;
+}
+.menus {
+  display: flex;
+  justify-content: 100px;
+}
+.logo-photo {
+  width: 100%;
+  max-width: 50px;
+}
+.item {
+  margin-right: 10px;
+  padding-right: 7px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.item:hover {
+  color: chartreuse;
+}
+.banner-img {
+  width: 100%;
+max-width: 400px;
 
 }
-.manu-containner{
-    background-color: rgb(32,32,32);
-    padding: 20px;
-    color:wheat;
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-
-
+.banner-container {
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+align-items: center;
+  color: wheat;
+  background-image: url("./images/background.png"),
+    linear-gradient(45deg, rgb(8, 8, 8), rgb(53, 53, 53));
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.menus{
-    display: flex;
+.title {
+  font-size: 55px;
+  font-weight: bold;
+  text-align: ;
 }
-.logo-photo{
-    width: 60px;
+.description {
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
-.item{
-    margin-right: 10px;
-    padding-right: 7px;
-    font-size: 16px;
-    cursor: pointer;
+.btn {
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
 }
-.item:hover{
-    color: chartreuse;
+.btn:hover {
+  cursor: pointer;
 }
-.banner-img{
-    width: 300px;
-
-}
-.banner-container{
-    display: flex;
-    justify-content: space-around;
-    height: 100vh;
-    align-items: center;
-    color: wheat;
-    background-image: url("./images/background.png"),linear-gradient(45deg,rgb(8,8,8),rgb(53,53,53));
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.title{
-    font-size: 55px;
-    font-weight: bold;
-}
-.description{
-    font-size: 18px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-
-}
-.btn{
-    padding: 10px 20px;
-    background-color: red;
-    color: white;
-    border-radius: 5px;
-}
-.btn:hover{
-    cursor: pointer;
+.banner-photo{
+  display: flex;
 }
